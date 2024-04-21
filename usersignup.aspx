@@ -127,7 +127,10 @@
                   <div class="col">
                      
                      <div class="form-group">
-                        <a href="usersignup.aspx"><input class="btn btn-info btn-block btn-lg" id="Button2" type="button" value="Sign Up" /></a>
+                        <a href="usersignup.aspx">
+                            <asp:Button class="btn btn-info btn-block btn-lg" id="Button2" OnClick="Button2_Click" type="button" Text="Sign Up" runat="server" />
+                        </a>
+                         <asp:TextBox class="form-control" runat="server" ID="showError"></asp:TextBox>
                      </div>
                   </div>
                </div>
